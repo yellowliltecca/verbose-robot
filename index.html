@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17191b">
+  <meta name="description" content="Мастер`ок — магазин строительных и хозяйственных товаров в Энгельсе. Сварочные материалы, бензоинструмент и электронагревательное оборудование. Маяковского, 80.">
+  <title>Мастер`ок — магазин строительных товаров в Энгельсе</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topline">
+    <div class="container topline__inner">
+      <span>Энгельс, ул. Маяковского, 80</span>
+      <div class="topline__links">
+        <a href="#directions">Направления</a>
+        <a href="#about">О магазине</a>
+        <a href="#contacts">Контакты</a>
+      </div>
+      <a class="topline__map" href="https://2gis.ru/engels/firm/70000001029062907/46.118687%2C51.486702?m=46.117827%2C51.487194%2F19.04" target="_blank" rel="noopener">Открыть в 2ГИС</a>
+    </div>
+  </div>
+
+  <header class="header" id="top">
+    <div class="container header__main">
+      <a class="brand" href="#top" aria-label="Мастер`ок — на главную">
+        <span class="brand__name">Мастер<span>`</span>ок</span>
+        <span class="brand__caption">СТРОИТЕЛЬНЫЕ И ХОЗЯЙСТВЕННЫЕ ТОВАРЫ</span>
+      </a>
+      <label class="search" for="siteSearch">
+        <input id="siteSearch" type="search" placeholder="Найти направление или товар" autocomplete="off">
+        <span class="search__button" aria-hidden="true">Найти</span>
+      </label>
+      <div class="header__contacts">
+        <a class="header__phone" href="tel:+79914613211">+7 (991) 461-32-11</a>
+        <span>Позвонить в магазин</span>
+      </div>
+      <a class="header__call" href="tel:+79914613211">Связаться</a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mainNav">Меню</button>
+    </div>
+    <nav class="nav" id="mainNav" aria-label="Основная навигация">
+      <div class="container nav__inner">
+        <a class="nav__catalog" href="#directions">Каталог магазина</a>
+        <a href="#welding">Сварочные материалы</a>
+        <a href="#tools">Бензоинструмент</a>
+        <a href="#heating">Электронагревательное оборудование</a>
+        <a href="#contacts">Контакты</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" aria-labelledby="heroTitle">
+      <div class="hero__main">
+        <img class="hero__photo" src="https://images.unsplash.com/photo-1770763233593-74dfd0da7bf0?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000" alt="Электроинструмент на рабочем столе" fetchpriority="high">
+        <div class="hero__shade"></div>
+        <div class="hero__copy">
+          <p class="eyebrow eyebrow--light">МАГАЗИН В ЭНГЕЛЬСЕ</p>
+          <h1 id="heroTitle">Всё для работы,<br>ремонта и дома</h1>
+          <p>Строительные и хозяйственные товары, инструменты и оборудование для повседневных задач.</p>
+          <a class="button button--orange" href="#directions">Посмотреть направления</a>
+        </div>
+        <div class="hero__label">МАСТЕР`ОК <span>·</span> МАЯКОВСКОГО, 80</div>
+      </div>
+      <div class="hero__side">
+        <a class="promo promo--welding" id="welding" href="#directions">
+          <img src="https://images.unsplash.com/photo-1530312435372-45ec7d3fe7c7?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000" alt="Сварочные работы и искры" loading="lazy">
+          <span class="promo__overlay"></span>
+          <span class="promo__text"><b>Сварочные<br>материалы</b><small>Для мастерской и работ по металлу</small></span>
+        </a>
+        <a class="promo promo--chainsaw" id="tools" href="#directions">
+          <img src="https://images.unsplash.com/photo-1561145999-3da06f41faae?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000" alt="Бензопила на фоне древесины" loading="lazy">
+          <span class="promo__overlay"></span>
+          <span class="promo__text"><b>Бензоинструмент</b><small>Инструмент для участка и хозяйства</small></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section container" id="directions">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">ЧТО МОЖНО НАЙТИ В МАГАЗИНЕ</p>
+          <h2>Направления магазина</h2>
+        </div>
+        <p class="section-heading__note">Уточняйте наличие, модели и характеристики у сотрудников магазина.</p>
+      </div>
+      <div class="category-grid" id="categoryGrid">
+        <a class="category-card category-card--wide" href="#contacts" data-search="строительные товары инструменты ручной электроинструмент ремонт">
+          <img src="https://images.unsplash.com/photo-1645651964715-d200ce0939cc?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000" alt="Инструменты на рабочем столе" loading="lazy">
+          <span class="category-card__body"><b>Инструменты<br>и оснастка</b><small>Для ремонта и мастерской</small></span>
+        </a>
+        <a class="category-card" href="#contacts" data-search="сварочные материалы сварка электроды сварочный инструмент">
+          <img src="https://images.unsplash.com/photo-1530312435372-45ec7d3fe7c7?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000" alt="Сварка металла" loading="lazy">
+          <span class="category-card__body"><b>Сварочные<br>материалы</b><small>Расходники и оборудование</small></span>
+        </a>
+        <a class="category-card" href="#contacts" data-search="бензоинструмент бензопилы садовый инструмент">
+          <img src="https://images.unsplash.com/photo-1561145999-3da06f41faae?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000" alt="Бензиновая цепная пила" loading="lazy">
+          <span class="category-card__body"><b>Бензоинструмент</b><small>Инструмент для участка</small></span>
+        </a>
+        <a class="category-card" id="heating" href="#contacts" data-search="электронагревательное оборудование обогреватели отопление">
+          <img src="https://images.unsplash.com/photo-1669726320997-c20c02c662d7?fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.0.3&q=60&w=3000" alt="Электрический радиатор в интерьере" loading="lazy">
+          <span class="category-card__body"><b>Электронагревательное<br>оборудование</b><small>Оборудование для обогрева</small></span>
+        </a>
+        <a class="category-card" href="#contacts" data-search="хозяйственные товары товары для дома">
+          <img src="https://images.unsplash.com/photo-1605701249987-f0bb9b505d06?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000" alt="Металлические крепёжные детали" loading="lazy">
+          <span class="category-card__body"><b>Хозяйственные<br>товары</b><small>Товары для повседневных задач</small></span>
+        </a>
+        <a class="category-card category-card--wide" href="#contacts" data-search="строительство ремонт строительные материалы товары для ремонта">
+          <img src="https://images.unsplash.com/photo-1745900435345-4ef41cf2c25e?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000" alt="Товары на полках строительного магазина" loading="lazy">
+          <span class="category-card__body"><b>Товары для<br>строительства и ремонта</b><small>Подбор нужного товара в магазине</small></span>
+        </a>
+      </div>
+      <p class="search-empty" id="searchEmpty" hidden>По этому запросу разделов не найдено. Позвоните в магазин — сотрудники подскажут, есть ли нужный товар.</p>
+    </section>
+
+    <section class="feature-band">
+      <div class="container feature-band__inner">
+        <div class="feature-band__copy">
+          <p class="eyebrow eyebrow--light">НЕ УВЕРЕНЫ, ЧТО ИМЕННО НУЖНО?</p>
+          <h2>Опишите задачу —<br>уточните подходящий товар</h2>
+          <p>Позвоните в магазин, расскажите, для какой работы подбираете инструмент или оборудование. Наличие и характеристики можно уточнить до визита.</p>
+          <a class="button button--orange" href="tel:+79914613211">Позвонить в магазин</a>
+        </div>
+        <div class="feature-band__image">
+          <img src="https://images.unsplash.com/photo-1752051547430-bed8db73d5ef?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000" alt="Инструменты и оборудование на полках мастерской" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="section container about-section" id="about">
+      <div class="about-section__photo">
+        <img src="https://images.unsplash.com/photo-1765744893064-dce3184289ef?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000" alt="Полки с хозяйственными и строительными товарами" loading="lazy">
+      </div>
+      <div class="about-section__copy">
+        <p class="eyebrow">О МАГАЗИНЕ</p>
+        <h2>«Мастер`ок»<br>в Энгельсе</h2>
+        <p>Магазин строительных и хозяйственных товаров на улице Маяковского. В справочниках для магазина указаны сварочные материалы, бензоинструмент и электронагревательное оборудование.</p>
+        <div class="about-facts">
+          <div><strong>4,1</strong><span>оценка в 2ГИС</span></div>
+          <div><strong>25</strong><span>оценок посетителей</span></div>
+        </div>
+        <a class="text-link" href="https://2gis.ru/engels/firm/70000001029062907/46.118687%2C51.486702?m=46.117827%2C51.487194%2F19.04" target="_blank" rel="noopener">Посмотреть карточку магазина в 2ГИС</a>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contacts">
+      <div class="container contact-section__inner">
+        <div class="contact-section__intro">
+          <p class="eyebrow eyebrow--light">КОНТАКТЫ</p>
+          <h2>Заходите<br>в «Мастер`ок»</h2>
+          <p>Маяковского, 80 · 1 этаж<br>Вход со стороны улицы Саратовской</p>
+          <a class="button button--orange" href="https://2gis.ru/engels/firm/70000001029062907/46.118687%2C51.486702?m=46.117827%2C51.487194%2F19.04" target="_blank" rel="noopener">Построить маршрут</a>
+        </div>
+        <div class="contact-section__details">
+          <div class="contact-detail"><span>ОСНОВНОЙ ТЕЛЕФОН</span><a href="tel:+79914613211">+7 (991) 461-32-11</a></div>
+          <div class="contact-detail"><span>ДОПОЛНИТЕЛЬНЫЙ ТЕЛЕФОН</span><a href="tel:+79372416071">+7 (937) 241-60-71</a></div>
+          <div class="contact-detail"><span>АДРЕС</span><strong>Энгельс, улица Маяковского, 80</strong></div>
+          <div class="contact-detail"><span>ВХОД</span><strong>Со стороны улицы Саратовской, 1 этаж</strong></div>
+          <p class="contact-note">График работы может меняться — перед поездкой уточните его по телефону или в карточке 2ГИС.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__main">
+      <div class="footer__brand">
+        <a class="brand brand--footer" href="#top"><span class="brand__name">Мастер<span>`</span>ок</span><span class="brand__caption">СТРОИТЕЛЬНЫЕ И ХОЗЯЙСТВЕННЫЕ ТОВАРЫ</span></a>
+        <p>Магазин в Энгельсе<br>Маяковского, 80</p>
+      </div>
+      <div><b>Магазин</b><a href="#about">О магазине</a><a href="#directions">Направления</a><a href="#contacts">Контакты</a></div>
+      <div><b>Направления</b><a href="#welding">Сварочные материалы</a><a href="#tools">Бензоинструмент</a><a href="#heating">Электронагревательное оборудование</a></div>
+      <div><b>Связаться</b><a href="tel:+79914613211">+7 (991) 461-32-11</a><a href="tel:+79372416071">+7 (937) 241-60-71</a><a href="https://2gis.ru/engels/firm/70000001029062907/46.118687%2C51.486702?m=46.117827%2C51.487194%2F19.04" target="_blank" rel="noopener">Магазин на карте</a></div>
+    </div>
+    <div class="container footer__bottom"><span>© «Мастер`ок»</span><span>Фотографии на сайте иллюстративные; наличие конкретных товаров уточняйте в магазине.</span></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
